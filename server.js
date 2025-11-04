@@ -1,7 +1,6 @@
 const PORT = process.env.PORT || 3000;
 const DATABASE_URL = "postgresql://flamepetrov:beNfkROTghKiKyCEVMoBkH18bvMZNBlR@dpg-d3vknvndiees73f2omc0-a.frankfurt-postgres.render.com/user_database_a6yu";
 
-
 const express = require("express");
 const cors = require("cors");
 const { Pool } = require("pg"); // PostgreSQL client
