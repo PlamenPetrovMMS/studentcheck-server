@@ -18,7 +18,8 @@ app.use(express.json());
 
 // connect to PostgreSQL
 const pool = new Pool({
-  connectionString: DATABASE_URL, // we'll use this later
+  connectionString: process.env.DATABASE_URL, // we'll use this later
+  host: "db.imnqwnpsuapkbbnuufqn.supabase.co",
   ssl: {
     rejectUnauthorized: false, // 🔒 required for Render
   },
