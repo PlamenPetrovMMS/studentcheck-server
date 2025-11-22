@@ -1,5 +1,4 @@
 const PORT = process.env.PORT || 3000;
-const DATABASE_URL = "postgresql://postgres:Flame-Supabase01!@db.imnqwnpsuapkbbnuufqn.supabase.co:5432/postgres";
 
 const express = require("express");
 const cors = require("cors");
